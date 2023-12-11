@@ -6,7 +6,7 @@ import plotly.express as px
 
 sns.set(style="dark")
 
-df = pd.read_csv("bike_hour.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/dwitaciaa/sharebike/main/dashboard/bike_hour.csv")
 df.head()
 
 def create_monthlay_rent_df(df):

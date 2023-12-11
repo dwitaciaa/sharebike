@@ -20,7 +20,7 @@ sharebike
 
 ## Setup Environment
 ```
-pip install pandas matplotlib seaborn streamlit plotly
+pip install pandas numpy matplotlib seaborn streamlit plotly
 ```
 ## Run Streamlit App
 ```

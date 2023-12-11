@@ -9,7 +9,7 @@ sns.set(style="dark")
 df = pd.read_csv("https://raw.githubusercontent.com/dwitaciaa/sharebike/main/dashboard/bike_hour.csv")
 df.head()
 
-def create_monthlay_rent_df(df):
+def create_monthly_rent_df(df):
     monthly_rent_df = df.groupby('mnth').agg({
         'cnt': 'sum'
     })
@@ -42,7 +42,7 @@ max_date = pd.to_datetime(df["dteday"]).dt.date.max()
 
 with st.sidebar:
     # Menambahkan logo
-    st.image("Bike Rent.jpg")
+    st.image("https://github.com/dwitaciaa/sharebike/blob/main/dashboard/Bike%20Rent.jpg")
 
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(

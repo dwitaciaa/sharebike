@@ -26,5 +26,5 @@ pip install pandas numpy matplotlib seaborn streamlit plotly
 ```
 streamlit run dashboard.py
 ```
-![alt text](https://github.com/dwitaciaa/bikerent/blob/main/Picture%201.png?raw=true)
+![alt text](https://github.com/dwitaciaa/sharebike/blob/main/Picture%201.png?raw=true)
 ![alt text](https://github.com/dwitaciaa/bikerent/blob/main/Picture%202.png?raw=true)

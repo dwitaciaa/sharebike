@@ -2,7 +2,7 @@
 
 ## Directory Sructure
 ````
-Bike Rent
+sharebike
 ├───dashboard
 | ├───Bike_Rent.jpg
 | └───bike_hour.csv
